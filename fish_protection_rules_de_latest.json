@@ -1,32 +1,110 @@
 {
   "schemaVersion": 1,
   "country": "DE",
-  "title": "FangPilot Schonzeiten und Schonmaße Deutschland",
-  "dataVersion": "2026.1-start",
-  "lastUpdated": "2026-06-09",
+  "title": "Anglio Schonzeiten und Schonmaße Deutschland",
+  "dataVersion": "2026.11-official-audit",
+  "lastUpdated": "2026-11-07",
   "fileRole": "latest-public-ruleset",
   "recommendedFilename": "fish_protection_rules_de_latest.json",
-  "dataStatus": "2026-03",
+  "dataStatus": "Amtlicher Abgleich 2026-11",
   "created": "2026-06-09",
-  "coverage": "Startdatensatz: alle 16 Bundesländer, Fokus auf gängige Angel-/Zielfischarten; nicht jede geschützte Muschel-/Krebs-/Kleinfischart ist enthalten.",
-  "legalDisclaimer": "Keine Rechtsberatung. Vor Entnahme immer amtliche Landesregelung, Erlaubnisschein und lokale Gewässerordnung prüfen. Daten können unvollständig oder regional abweichend sein.",
+  "coverage": "Amtlich abgeglichener Datensatz für alle 16 Bundesländer mit Fokus auf gängige Angel- und Zielfischarten. Regional oder gewässerspezifisch geltende Regeln sind gekennzeichnet und werden nicht pauschal landesweit angewendet.",
+  "legalDisclaimer": "Keine Rechtsberatung. Vor Entnahme immer die aktuelle amtliche Landesregelung, den Erlaubnisschein und die lokale Gewässerordnung prüfen. Gewässerspezifische Regeln können strenger sein.",
   "sources": [
     {
-      "name": "BLINKER Übersicht Schonzeiten und Mindestmaße aller Bundesländer",
-      "url": "https://www.blinker.de/angelmethoden/angeln-allgemein/angeltipps/aktuelle-schonzeiten-und-mindestmasse-aller-bundeslaender/",
-      "accessed": "2026-06-09",
-      "sourceType": "secondary-overview"
-    },
-    {
-      "name": "Bayern: AVBayFiG Anlage 1",
+      "name": "Bayern: AVBayFiG Anlage",
       "url": "https://www.gesetze-bayern.de/Content/Document/BayAVFiG-ANL_1",
-      "accessed": "2026-06-09",
+      "accessed": "2026-11-07",
       "sourceType": "official"
     },
     {
-      "name": "Berlin: Mindestmaße und Schonzeiten gemäß Fischereirecht",
-      "url": "https://www.berlin.de/fischereiamt/angelfischen/mindestmasse-und-schonzeiten/",
-      "accessed": "2026-06-09",
+      "name": "Baden-Württemberg: Landesfischereiverordnung § 1",
+      "url": "https://www.landesrecht-bw.de/bsbw/document/jlr-NNLBW00007D0ENN00000000010",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Brandenburg: Fischereiordnung Anlage",
+      "url": "https://bravors.brandenburg.de/verordnungen/bbgfischo/5",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Berlin: LFischO Anlage 1",
+      "url": "https://gesetze.berlin.de/bsbe/document/jlr-FischOBEV5Anlage1",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Bremen: Bremische Binnenfischereiverordnung",
+      "url": "https://www.transparenz.bremen.de/metainformationen/bremische-binnenfischereiverordnung-vom-30-september-2011-66577",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Hamburg: Durchführungsverordnung Fischerei- und Angelgesetz",
+      "url": "https://dokumente.hamburg.de/resource/blob/179406/1c1045f6e901b54e7ffc68ecfc432444/verordnung-zur-durchfuehrung-des-hamburgischen-fischerei-und-angelgesetzes-data.pdf",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Hessen: Hessische Fischereiverordnung",
+      "url": "https://rp-kassel.hessen.de/sites/rp-kassel.hessen.de/files/2023-04/HFischV_14.04.2023.pdf",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Mecklenburg-Vorpommern: Mindestmaße und Schonzeiten",
+      "url": "https://www.lallf.de/fischerei/fischereischutz/mindestmasseschonzeiten/?L=0",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Niedersachsen: Binnenfischereiordnung",
+      "url": "https://www.laves.niedersachsen.de/download/42526/Binnenfischereiordnung.pdf",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Nordrhein-Westfalen: Landesfischereiverordnung",
+      "url": "https://recht.nrw.de/lrgv/rechtsverordnung/03072026-landesfischereiverordnung-lfischvo/",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Rheinland-Pfalz: Landesfischereiordnung",
+      "url": "https://sgdsued.rlp.de/fileadmin/sgdsued/Service/Downloads/Fischerei/LFischO.pdf",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Saarland: Saarländisches Fischereirecht",
+      "url": "https://www.saarland.de/mukmav/DE/portale/jagdundfischerei/service/publikationen/pub_saarlaendisches-fischereirecht_muv.pdf?__blob=publicationFile&v=3",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Sachsen: Sächsische Fischereiverordnung",
+      "url": "https://www.revosax.sachsen.de/vorschrift/19620-Saechsische-Fischereiverordnung-",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Sachsen-Anhalt: Fischereiordnung",
+      "url": "https://mwl.sachsen-anhalt.de/landwirtschaft/fischerei",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Schleswig-Holstein: Fischereirechtliche Grundlagen",
+      "url": "https://www.schleswig-holstein.de/DE/fachinhalte/F/fischerei/gesetzeVerordnungen.html",
+      "accessed": "2026-11-07",
+      "sourceType": "official"
+    },
+    {
+      "name": "Thüringen: Vorschriften für die Ausübung der Fischerei",
+      "url": "https://infrastruktur-landwirtschaft.thueringen.de/fileadmin/Forst_und_Jagd_Fischerei/Fischerei/Fischereiwesen/Broschuere_VJF_2020_WEB.pdf",
+      "accessed": "2026-11-07",
       "sourceType": "official"
     }
   ],
@@ -53,7 +131,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -73,7 +151,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -93,7 +171,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -113,7 +191,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -133,7 +211,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Huchen",
@@ -153,7 +231,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -166,7 +244,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Nase",
@@ -186,7 +264,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -199,7 +277,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -219,7 +297,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Regenbogenforelle",
@@ -239,7 +317,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -259,7 +337,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seeforelle",
@@ -279,7 +357,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seesaibling",
@@ -299,7 +377,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
@@ -312,7 +390,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -332,7 +410,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         }
       ],
       "notes": []
@@ -343,23 +421,23 @@
       "rules": [
         {
           "species": "Aal",
-          "waterScope": "all",
+          "waterScope": "Rhein und sein Gewässersystem",
           "minimumSizeCm": 50,
           "maximumSizeCm": null,
           "rawMinimumSize": "50 cm",
           "closedSeasons": [
             {
               "startDay": 15,
-              "startMonth": 10,
+              "startMonth": 9,
               "endDay": 1,
               "endMonth": 3
             }
           ],
-          "rawClosedSeason": "15.10.–01.03.",
+          "rawClosedSeason": "15.09.–01.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "nur Gewässersystem Rhein",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Aland",
@@ -379,7 +457,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -399,14 +477,14 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
           "waterScope": "all",
-          "minimumSizeCm": 20,
-          "maximumSizeCm": 30,
-          "rawMinimumSize": "20–30 cm",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
           "closedSeasons": [
             {
               "startDay": 1,
@@ -418,8 +496,28 @@
           "rawClosedSeason": "01.10.–28.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Schonmaß je Gewässertyp abweichend",
-          "verified": false
+          "note": "Mindestmaß regional 20, 25 oder 35 cm; Gewässerregel prüfen.",
+          "verified": true
+        },
+        {
+          "species": "Bachsaibling",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 10,
+              "endDay": 28,
+              "endMonth": 2
+            }
+          ],
+          "rawClosedSeason": "01.10.–28.02.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -439,7 +537,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Felchen",
@@ -459,11 +557,11 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Huchen",
-          "waterScope": "all",
+          "waterScope": "Donau und ihr Gewässersystem",
           "minimumSizeCm": 70,
           "maximumSizeCm": null,
           "rawMinimumSize": "70 cm",
@@ -478,8 +576,8 @@
           "rawClosedSeason": "01.02.–31.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Gewässersystem Donau",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -498,28 +596,8 @@
           "rawClosedSeason": "15.02.–15.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Hecht",
-          "waterScope": "all",
-          "minimumSizeCm": 50,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "50 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 2,
-              "endDay": 30,
-              "endMonth": 4
-            }
-          ],
-          "rawClosedSeason": "01.02.–30.04.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": "im Main",
-          "verified": false
+          "note": "Im Main gilt 01.02.–30.04.",
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -532,7 +610,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Nase",
@@ -552,7 +630,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -572,11 +650,11 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
-          "waterScope": "all",
+          "waterScope": "Donau und ihr Gewässersystem",
           "minimumSizeCm": 40,
           "maximumSizeCm": null,
           "rawMinimumSize": "40 cm",
@@ -591,15 +669,15 @@
           "rawClosedSeason": "01.03.–31.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Gewässersystem Donau",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Regenbogenforelle",
           "waterScope": "all",
           "minimumSizeCm": null,
           "maximumSizeCm": null,
-          "rawMinimumSize": "–",
+          "rawMinimumSize": null,
           "closedSeasons": [
             {
               "startDay": 1,
@@ -612,7 +690,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -632,7 +710,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seeforelle",
@@ -652,7 +730,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seesaibling",
@@ -672,7 +750,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -691,28 +769,42 @@
           "rawClosedSeason": "01.04.–15.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "note": "Im Main gelten 50 cm und 01.02.–30.04.",
+          "verified": true
         },
         {
-          "species": "Zander",
+          "species": "Lachs",
           "waterScope": "all",
-          "minimumSizeCm": 50,
+          "minimumSizeCm": null,
           "maximumSizeCm": null,
-          "rawMinimumSize": "50 cm",
+          "rawMinimumSize": null,
           "closedSeasons": [
             {
-              "startDay": 1,
-              "startMonth": 2,
-              "endDay": 30,
-              "endMonth": 4
+              "type": "yearRound"
             }
           ],
-          "rawClosedSeason": "01.02.–30.04.",
-          "isFullyProtected": false,
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
           "bagLimitPerDay": null,
-          "note": "im Main",
-          "verified": false
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -730,9 +822,9 @@
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
-          "bagLimitPerDay": null,
+          "bagLimitPerDay": 3,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Aland",
@@ -745,7 +837,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -765,7 +857,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -785,27 +877,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Bachsaibling",
-          "waterScope": "all",
-          "minimumSizeCm": 25,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "25 cm",
-          "closedSeasons": [
-            {
-              "startDay": 16,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 4
-            }
-          ],
-          "rawClosedSeason": "16.10.–15.04.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": "Fließgewässer; stehende Gewässer ohne Schonzeit",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -825,27 +897,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Große Maräne",
-          "waterScope": "all",
-          "minimumSizeCm": 30,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "30 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 10,
-              "endDay": 31,
-              "endMonth": 12
-            }
-          ],
-          "rawClosedSeason": "01.10.–31.12.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": "nur Besatz in stehenden Gewässern",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hasel",
@@ -858,7 +910,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -877,8 +929,8 @@
           "rawClosedSeason": "01.02.–31.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Spreewald-Sonderregeln prüfen",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -891,27 +943,20 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
-          "species": "Meerforelle",
+          "species": "Kleine Maräne",
           "waterScope": "all",
-          "minimumSizeCm": 60,
+          "minimumSizeCm": 15,
           "maximumSizeCm": null,
-          "rawMinimumSize": "60 cm",
-          "closedSeasons": [
-            {
-              "startDay": 16,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 4
-            }
-          ],
-          "rawClosedSeason": "16.10.–15.04.",
+          "rawMinimumSize": "15 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Satzfisch, sonst geschont",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -924,27 +969,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Regenbogenforelle",
-          "waterScope": "all",
-          "minimumSizeCm": 25,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "25 cm",
-          "closedSeasons": [
-            {
-              "startDay": 16,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 4
-            }
-          ],
-          "rawClosedSeason": "16.10.–15.04.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": "Fließgewässer",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -964,7 +989,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -977,40 +1002,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Seeforelle",
-          "waterScope": "all",
-          "minimumSizeCm": 60,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "60 cm",
-          "closedSeasons": [
-            {
-              "startDay": 16,
-              "startMonth": 1,
-              "endDay": 15,
-              "endMonth": 4
-            }
-          ],
-          "rawClosedSeason": "16.01.–15.04.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Wels",
-          "waterScope": "all",
-          "minimumSizeCm": null,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "–",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -1030,7 +1022,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zope",
@@ -1050,7 +1042,92 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Zährte",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Große Maräne",
+          "waterScope": "Fließgewässer; in stehenden Gewässern nach Besatz abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "Ohne nachgewiesenen Besatz; Satzfische abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "Ohne nachgewiesenen Besatz; Satzfische abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Seeforelle",
+          "waterScope": "Ohne nachgewiesenen Besatz; Satzfische abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -1070,7 +1147,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Aland",
@@ -1083,7 +1160,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -1103,7 +1180,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -1123,7 +1200,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachsaibling",
@@ -1143,27 +1220,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Blaufelchen",
-          "waterScope": "all",
-          "minimumSizeCm": 30,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "30 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 10,
-              "endDay": 31,
-              "endMonth": 12
-            }
-          ],
-          "rawClosedSeason": "01.10.–31.12.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Döbel",
@@ -1176,7 +1233,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hasel",
@@ -1189,7 +1246,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -1209,7 +1266,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -1222,7 +1279,20 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Kleine Maräne",
+          "waterScope": "all",
+          "minimumSizeCm": 15,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "15 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -1235,7 +1305,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -1255,7 +1325,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Regenbogenforelle",
@@ -1275,7 +1345,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -1288,7 +1358,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seeforelle",
@@ -1308,7 +1378,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
@@ -1321,7 +1391,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -1329,12 +1399,19 @@
           "minimumSizeCm": 45,
           "maximumSizeCm": null,
           "rawMinimumSize": "45 cm",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 1,
+              "endDay": 31,
+              "endMonth": 5
+            }
+          ],
+          "rawClosedSeason": "01.01.–31.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zope",
@@ -1354,7 +1431,126 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Barbe",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Karausche",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Nase",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Zährte",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Große Maräne",
+          "waterScope": "Fließgewässer; als Satzfisch abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -1367,28 +1563,21 @@
           "species": "Aal",
           "waterScope": "all",
           "minimumSizeCm": 45,
-          "maximumSizeCm": 75,
-          "rawMinimumSize": "45–75 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 10,
-              "endDay": 31,
-              "endMonth": 1
-            }
-          ],
-          "rawClosedSeason": "01.10.–31.01.",
+          "maximumSizeCm": null,
+          "rawMinimumSize": "45 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Küstenbereiche: Aal ganzjährig geschützt",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Äsche",
           "waterScope": "all",
-          "minimumSizeCm": null,
+          "minimumSizeCm": 35,
           "maximumSizeCm": null,
-          "rawMinimumSize": "–",
+          "rawMinimumSize": "35 cm",
           "closedSeasons": [
             {
               "startDay": 1,
@@ -1401,100 +1590,14 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
-          "species": "Bachforelle",
+          "species": "Barsch",
           "waterScope": "all",
-          "minimumSizeCm": 20,
-          "maximumSizeCm": 40,
-          "rawMinimumSize": "20–40 cm",
-          "closedSeasons": [
-            {
-              "startDay": 15,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 3
-            }
-          ],
-          "rawClosedSeason": "15.10.–15.03.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Hecht",
-          "waterScope": "all",
-          "minimumSizeCm": 45,
-          "maximumSizeCm": 75,
-          "rawMinimumSize": "45–75 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 2,
-              "endDay": 31,
-              "endMonth": 5
-            }
-          ],
-          "rawClosedSeason": "01.02.–31.05.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Meerforelle",
-          "waterScope": "all",
-          "minimumSizeCm": 40,
-          "maximumSizeCm": 65,
-          "rawMinimumSize": "40–65 cm",
-          "closedSeasons": [
-            {
-              "startDay": 15,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 2
-            }
-          ],
-          "rawClosedSeason": "15.10.–15.02.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Quappe",
-          "waterScope": "all",
-          "minimumSizeCm": 30,
-          "maximumSizeCm": 50,
-          "rawMinimumSize": "30–50 cm",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Rapfen",
-          "waterScope": "all",
-          "minimumSizeCm": 50,
-          "maximumSizeCm": 70,
-          "rawMinimumSize": "50–70 cm",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Zander",
-          "waterScope": "all",
-          "minimumSizeCm": 45,
-          "maximumSizeCm": 75,
-          "rawMinimumSize": "45–75 cm",
+          "minimumSizeCm": 15,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "15 cm",
           "closedSeasons": [
             {
               "startDay": 1,
@@ -1507,7 +1610,176 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Döbel",
+          "waterScope": "all",
+          "minimumSizeCm": 30,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "30 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Flunder",
+          "waterScope": "all",
+          "minimumSizeCm": 25,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "25 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Hecht",
+          "waterScope": "all",
+          "minimumSizeCm": 60,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "60 cm",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 2,
+              "endDay": 15,
+              "endMonth": 5
+            }
+          ],
+          "rawClosedSeason": "01.02.–15.05.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Quappe",
+          "waterScope": "all",
+          "minimumSizeCm": 35,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "35 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Rapfen",
+          "waterScope": "all",
+          "minimumSizeCm": 40,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "40 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Zander",
+          "waterScope": "all",
+          "minimumSizeCm": 40,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "40 cm",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 2,
+              "endDay": 15,
+              "endMonth": 5
+            }
+          ],
+          "rawClosedSeason": "01.02.–15.05.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Bachforelle",
+          "waterScope": "Nur nach nachgewiesenem Besatz oder bestandsstützender Maßnahme",
+          "minimumSizeCm": 30,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "30 cm",
+          "closedSeasons": [
+            {
+              "startDay": 15,
+              "startMonth": 10,
+              "endDay": 15,
+              "endMonth": 3
+            }
+          ],
+          "rawClosedSeason": "15.10.–15.03.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "Nur nach nachgewiesenem Besatz oder bestandsstützender Maßnahme",
+          "minimumSizeCm": 60,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "60 cm",
+          "closedSeasons": [
+            {
+              "startDay": 15,
+              "startMonth": 10,
+              "endDay": 15,
+              "endMonth": 3
+            }
+          ],
+          "rawClosedSeason": "15.10.–15.03.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "Nur nach nachgewiesenem Besatz oder bestandsstützender Maßnahme",
+          "minimumSizeCm": 50,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "50 cm",
+          "closedSeasons": [
+            {
+              "startDay": 15,
+              "startMonth": 10,
+              "endDay": 15,
+              "endMonth": 3
+            }
+          ],
+          "rawClosedSeason": "15.10.–15.03.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Zährte",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -1525,9 +1797,9 @@
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
-          "bagLimitPerDay": null,
+          "bagLimitPerDay": 3,
           "note": "max. 3 Stk./Tag; Küstenbereiche: Aal ganzjährig geschützt",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -1547,7 +1819,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -1567,7 +1839,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Flussbarsch",
@@ -1580,7 +1852,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -1598,9 +1870,9 @@
           ],
           "rawClosedSeason": "01.02.–31.05.",
           "isFullyProtected": false,
-          "bagLimitPerDay": null,
+          "bagLimitPerDay": 2,
           "note": "max. 2 Stk./Tag",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -1613,7 +1885,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Meerforelle",
@@ -1631,9 +1903,9 @@
           ],
           "rawClosedSeason": "15.10.–15.02.",
           "isFullyProtected": false,
-          "bagLimitPerDay": null,
+          "bagLimitPerDay": 2,
           "note": "max. 2 Stk./Tag",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -1644,9 +1916,9 @@
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
-          "bagLimitPerDay": null,
+          "bagLimitPerDay": 3,
           "note": "max. 3 Stk./Tag",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -1657,9 +1929,9 @@
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
-          "bagLimitPerDay": null,
+          "bagLimitPerDay": 1,
           "note": "max. 1 Stk./Tag",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -1672,7 +1944,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
@@ -1685,7 +1957,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -1703,9 +1975,9 @@
           ],
           "rawClosedSeason": "01.02.–31.05.",
           "isFullyProtected": false,
-          "bagLimitPerDay": null,
+          "bagLimitPerDay": 2,
           "note": "max. 2 Stk./Tag",
-          "verified": false
+          "verified": true
         }
       ],
       "notes": []
@@ -1732,7 +2004,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -1752,7 +2024,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -1772,7 +2044,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -1792,7 +2064,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -1812,7 +2084,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen (Wildform)",
@@ -1820,12 +2092,19 @@
           "minimumSizeCm": 45,
           "maximumSizeCm": 60,
           "rawMinimumSize": "45–60 cm",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
+          "closedSeasons": [
+            {
+              "startDay": 15,
+              "startMonth": 3,
+              "endDay": 31,
+              "endMonth": 5
+            }
+          ],
+          "rawClosedSeason": "15.03.–31.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Meerforelle",
@@ -1845,7 +2124,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Nase",
@@ -1865,7 +2144,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rotfeder",
@@ -1885,7 +2164,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -1905,7 +2184,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seeforelle",
@@ -1913,12 +2192,19 @@
           "minimumSizeCm": 25,
           "maximumSizeCm": 60,
           "rawMinimumSize": "25–60 cm",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 10,
+              "endDay": 31,
+              "endMonth": 3
+            }
+          ],
+          "rawClosedSeason": "01.10.–31.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -1931,7 +2217,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         }
       ],
       "notes": []
@@ -1957,8 +2243,8 @@
           "rawClosedSeason": "01.12.–28.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen und Küste",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Aland",
@@ -1971,7 +2257,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -1984,7 +2270,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -2003,8 +2289,8 @@
           "rawClosedSeason": "01.10.–31.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Barsch",
@@ -2016,8 +2302,28 @@
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 20 cm",
-          "verified": false
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Hasel",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 3,
+              "endDay": 31,
+              "endMonth": 5
+            }
+          ],
+          "rawClosedSeason": "01.03.–31.05.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -2029,8 +2335,8 @@
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 50 cm",
-          "verified": false
+          "note": "Zusätzliche Schonzeit kann im Erlaubnisschein festgelegt sein.",
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -2043,7 +2349,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Lachs",
@@ -2062,11 +2368,11 @@
           "rawClosedSeason": "01.09.–31.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 15.09.–14.12.",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
-          "species": "Maräne",
+          "species": "Große Maräne",
           "waterScope": "all",
           "minimumSizeCm": 30,
           "maximumSizeCm": null,
@@ -2083,7 +2389,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Meerforelle",
@@ -2102,28 +2408,8 @@
           "rawClosedSeason": "01.09.–31.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 15.09.–14.12.",
-          "verified": false
-        },
-        {
-          "species": "Ostseeschnäpel",
-          "waterScope": "all",
-          "minimumSizeCm": 40,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "40 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 11,
-              "endDay": 30,
-              "endMonth": 11
-            }
-          ],
-          "rawClosedSeason": "01.11.–30.11.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": "Küste",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -2143,7 +2429,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -2156,7 +2442,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -2169,7 +2455,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
@@ -2189,7 +2475,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -2201,15 +2487,35 @@
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 23.04.–22.05.",
-          "verified": false
+          "note": "Zusätzliche Schonzeit kann im Erlaubnisschein festgelegt sein.",
+          "verified": true
+        },
+        {
+          "species": "Zährte",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 5,
+              "endDay": 31,
+              "endMonth": 7
+            }
+          ],
+          "rawClosedSeason": "01.05.–31.07.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Zope",
           "waterScope": "all",
-          "minimumSizeCm": 40,
-          "maximumSizeCm": 45,
-          "rawMinimumSize": "40–45 cm",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
           "closedSeasons": [
             {
               "startDay": 1,
@@ -2221,8 +2527,42 @@
           "rawClosedSeason": "01.04.–31.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Gebietsabhängig",
-          "verified": false
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Barbe",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Nase",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -2241,8 +2581,8 @@
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 45 cm, Küstenbereiche ggf. Aal ganzjährig geschützt",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -2261,8 +2601,8 @@
           "rawClosedSeason": "01.03.–15.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -2281,8 +2621,8 @@
           "rawClosedSeason": "15.10.–15.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -2295,7 +2635,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -2314,59 +2654,8 @@
           "rawClosedSeason": "01.02.–15.04.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 45 cm ohne Schonzeit laut Übersicht",
-          "verified": false
-        },
-        {
-          "species": "Lachs",
-          "waterScope": "all",
-          "minimumSizeCm": 50,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "50 cm",
-          "closedSeasons": [
-            {
-              "type": "yearRound"
-            }
-          ],
-          "rawClosedSeason": "ganzjährig",
-          "isFullyProtected": true,
-          "bagLimitPerDay": null,
-          "note": "Binnen; Küste 60 cm, 01.10.–15.03.",
-          "verified": false
-        },
-        {
-          "species": "Meerforelle",
-          "waterScope": "all",
-          "minimumSizeCm": 40,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "40 cm",
-          "closedSeasons": [
-            {
-              "type": "yearRound"
-            }
-          ],
-          "rawClosedSeason": "ganzjährig",
-          "isFullyProtected": true,
-          "bagLimitPerDay": null,
-          "note": "Binnen; Küste 40 cm, 01.10.–15.02.",
-          "verified": false
-        },
-        {
-          "species": "Nase",
-          "waterScope": "all",
-          "minimumSizeCm": 25,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "25 cm",
-          "closedSeasons": [
-            {
-              "type": "yearRound"
-            }
-          ],
-          "rawClosedSeason": "ganzjährig",
-          "isFullyProtected": true,
-          "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -2379,24 +2668,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Rapfen",
-          "waterScope": "all",
-          "minimumSizeCm": 40,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "40 cm",
-          "closedSeasons": [
-            {
-              "type": "yearRound"
-            }
-          ],
-          "rawClosedSeason": "ganzjährig",
-          "isFullyProtected": true,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Regenbogenforelle",
@@ -2409,7 +2681,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
@@ -2422,7 +2694,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -2441,8 +2713,93 @@
           "rawClosedSeason": "15.03.–30.04.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 35 cm, 15.03.–15.05.",
-          "verified": false
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "Ohne gemeldeten Besatz; Besatzgewässer abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "Ohne gemeldeten Besatz; Besatzgewässer abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Nase",
+          "waterScope": "Ohne gemeldeten Besatz; Besatzgewässer abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Rapfen",
+          "waterScope": "Ohne gemeldeten Besatz; Besatzgewässer abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Stör",
+          "waterScope": "Ohne gemeldeten Besatz; Besatzgewässer abweichend",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -2453,7 +2810,7 @@
       "rules": [
         {
           "species": "Aal",
-          "waterScope": "all",
+          "waterScope": "Rheinhauptstrom ohne Nebengewässer",
           "minimumSizeCm": 50,
           "maximumSizeCm": null,
           "rawMinimumSize": "50 cm",
@@ -2468,8 +2825,8 @@
           "rawClosedSeason": "01.10.–01.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "im Rheinhauptstrom ohne Nebengewässer",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Aland",
@@ -2482,7 +2839,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -2501,8 +2858,8 @@
           "rawClosedSeason": "01.03.–30.04.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "note": "In amtlich festgelegten Gewässerabschnitten ganzjährig geschützt.",
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -2522,7 +2879,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -2542,7 +2899,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -2562,7 +2919,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -2575,7 +2932,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Nase",
@@ -2595,7 +2952,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -2608,7 +2965,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seeforelle",
@@ -2628,7 +2985,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seesaibling",
@@ -2648,7 +3005,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -2668,7 +3025,41 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -2688,7 +3079,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -2708,7 +3099,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -2727,28 +3118,8 @@
           "rawClosedSeason": "15.10.–15.03.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Winter-/Frühjahrsschonzeit beachten",
-          "verified": false
-        },
-        {
-          "species": "Bachsaibling",
-          "waterScope": "all",
-          "minimumSizeCm": null,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "–",
-          "closedSeasons": [
-            {
-              "startDay": 15,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 3
-            }
-          ],
-          "rawClosedSeason": "15.10.–15.03.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "note": "Artenschonzeit gilt in Gewässern ohne Winterschonzeit; Gewässerregel prüfen.",
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -2768,7 +3139,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Blaufelchen",
@@ -2781,7 +3152,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Güster",
@@ -2794,7 +3165,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hasel",
@@ -2807,7 +3178,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -2827,7 +3198,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -2840,7 +3211,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Nase",
@@ -2848,39 +3219,12 @@
           "minimumSizeCm": 30,
           "maximumSizeCm": null,
           "rawMinimumSize": "30 cm",
-          "closedSeasons": [
-            {
-              "startDay": 15,
-              "startMonth": 3,
-              "endDay": 30,
-              "endMonth": 4
-            }
-          ],
-          "rawClosedSeason": "15.03.–30.04.",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "außer Mosel, Lahn und Rhein",
-          "verified": false
-        },
-        {
-          "species": "Regenbogenforelle",
-          "waterScope": "all",
-          "minimumSizeCm": null,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "–",
-          "closedSeasons": [
-            {
-              "startDay": 15,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 3
-            }
-          ],
-          "rawClosedSeason": "15.10.–15.03.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "note": "15.03.–30.04. außer in Rhein, Mosel und Lahn; Gewässerregel prüfen.",
+          "verified": true
         },
         {
           "species": "Rotauge",
@@ -2893,7 +3237,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rotfeder",
@@ -2906,7 +3250,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seeforelle",
@@ -2914,19 +3258,12 @@
           "minimumSizeCm": 60,
           "maximumSizeCm": null,
           "rawMinimumSize": "60 cm",
-          "closedSeasons": [
-            {
-              "startDay": 15,
-              "startMonth": 10,
-              "endDay": 15,
-              "endMonth": 3
-            }
-          ],
-          "rawClosedSeason": "15.10.–15.03.",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -2939,33 +3276,20 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
           "waterScope": "all",
           "minimumSizeCm": null,
           "maximumSizeCm": null,
-          "rawMinimumSize": "–",
+          "rawMinimumSize": null,
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Wildkarpfen",
-          "waterScope": "all",
-          "minimumSizeCm": 35,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "35 cm",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -2984,8 +3308,93 @@
           "rawClosedSeason": "15.03.–15.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Lahn: 01.04.–31.05.",
-          "verified": false
+          "note": "In der Lahn gilt 01.04.–31.05.",
+          "verified": true
+        },
+        {
+          "species": "Aland",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Karausche",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Quappe",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -3005,7 +3414,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -3025,7 +3434,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -3045,7 +3454,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -3065,7 +3474,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -3085,7 +3494,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -3098,7 +3507,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Nase",
@@ -3118,7 +3527,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -3131,20 +3540,20 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
           "waterScope": "all",
           "minimumSizeCm": null,
           "maximumSizeCm": null,
-          "rawMinimumSize": "–",
+          "rawMinimumSize": null,
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -3164,7 +3573,58 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Quappe",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -3184,7 +3644,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Aland",
@@ -3197,7 +3657,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -3217,7 +3677,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Atlantischer Lachs",
@@ -3237,7 +3697,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -3257,7 +3717,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachsaibling",
@@ -3277,7 +3737,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -3297,7 +3757,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Große Maräne",
@@ -3317,7 +3777,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -3337,7 +3797,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karausche",
@@ -3357,7 +3817,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -3370,7 +3830,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Meerforelle",
@@ -3390,27 +3850,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
-        },
-        {
-          "species": "Nase",
-          "waterScope": "all",
-          "minimumSizeCm": null,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "–",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 1,
-              "endDay": 15,
-              "endMonth": 6
-            }
-          ],
-          "rawClosedSeason": "01.01.–15.06.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": "nur in der Elbe, sonst ganzjährig",
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -3430,7 +3870,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Regenbogenforelle",
@@ -3438,32 +3878,12 @@
           "minimumSizeCm": 25,
           "maximumSizeCm": null,
           "rawMinimumSize": "25 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 10,
-              "endDay": 30,
-              "endMonth": 4
-            }
-          ],
-          "rawClosedSeason": "01.10.–30.04.",
-          "isFullyProtected": false,
-          "bagLimitPerDay": null,
-          "note": null,
-          "verified": false
-        },
-        {
-          "species": "Rotfeder",
-          "waterScope": "all",
-          "minimumSizeCm": 20,
-          "maximumSizeCm": null,
-          "rawMinimumSize": "20 cm",
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Fließgewässer",
-          "verified": false
+          "note": "In Fließgewässern gilt zusätzlich 01.10.–30.04.",
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -3476,7 +3896,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seeforelle",
@@ -3496,7 +3916,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Seesaibling",
@@ -3516,7 +3936,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -3536,7 +3956,88 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Nase",
+          "waterScope": "Außer Elbe; in der Elbe 01.01.–15.06. und 40 cm",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Quappe",
+          "waterScope": "Außer Elbe, Vereinigter Mulde und Weißer Elster; dort 01.01.–31.03. und 30 cm",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Rotfeder",
+          "waterScope": "Nur Fließgewässer",
+          "minimumSizeCm": 20,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "20 cm",
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Zährte",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Zope",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -3548,15 +4049,15 @@
         {
           "species": "Aal",
           "waterScope": "all",
-          "minimumSizeCm": 50,
+          "minimumSizeCm": 45,
           "maximumSizeCm": null,
-          "rawMinimumSize": "50 cm",
+          "rawMinimumSize": "45 cm",
           "closedSeasons": [],
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -3576,7 +4077,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -3596,7 +4097,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Barbe",
@@ -3616,7 +4117,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Große Maräne",
@@ -3629,7 +4130,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -3649,7 +4150,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -3662,7 +4163,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Kleine Maräne",
@@ -3675,7 +4176,47 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "all",
+          "minimumSizeCm": 50,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "50 cm",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 10,
+              "endDay": 31,
+              "endMonth": 3
+            }
+          ],
+          "rawClosedSeason": "01.10.–31.03.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "all",
+          "minimumSizeCm": 40,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "40 cm",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 10,
+              "endDay": 31,
+              "endMonth": 3
+            }
+          ],
+          "rawClosedSeason": "01.10.–31.03.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -3688,7 +4229,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -3701,7 +4242,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Regenbogenforelle",
@@ -3714,7 +4255,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -3727,7 +4268,27 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Wels",
+          "waterScope": "all",
+          "minimumSizeCm": 70,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "70 cm",
+          "closedSeasons": [
+            {
+              "startDay": 15,
+              "startMonth": 2,
+              "endDay": 30,
+              "endMonth": 6
+            }
+          ],
+          "rawClosedSeason": "15.02.–30.06.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Zährte",
@@ -3740,7 +4301,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -3760,7 +4321,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         }
       ],
       "notes": []
@@ -3779,8 +4340,8 @@
           "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 45 cm, Küstenbereiche ggf. Aal ganzjährig geschützt",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Äsche",
@@ -3799,8 +4360,8 @@
           "rawClosedSeason": "01.01.–30.04.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Bachforelle",
@@ -3819,8 +4380,8 @@
           "rawClosedSeason": "01.10.–28.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 40 cm, 01.10.–31.12. Sonderregel silbrige Fische",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Finte",
@@ -3833,7 +4394,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
@@ -3845,15 +4406,15 @@
             {
               "startDay": 15,
               "startMonth": 2,
-              "endDay": 30,
+              "endDay": 15,
               "endMonth": 4
             }
           ],
-          "rawClosedSeason": "15.02.–30.04.",
+          "rawClosedSeason": "15.02.–15.04.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen und Küste",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -3866,7 +4427,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Lachs",
@@ -3885,8 +4446,8 @@
           "rawClosedSeason": "01.10.–28.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 01.10.–31.12.",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Meerforelle",
@@ -3905,8 +4466,8 @@
           "rawClosedSeason": "01.10.–28.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 01.10.–31.12.",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Ostseeschnäpel",
@@ -3916,17 +4477,17 @@
           "rawMinimumSize": "40 cm",
           "closedSeasons": [
             {
-              "startDay": 21,
+              "startDay": 1,
               "startMonth": 11,
               "endDay": 31,
               "endMonth": 1
             }
           ],
-          "rawClosedSeason": "21.11.–31.01.",
+          "rawClosedSeason": "01.11.–31.01.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 01.12.–28.02.",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -3945,8 +4506,8 @@
           "rawClosedSeason": "01.01.–28.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Elbe und Nebengewässer ganzjährig",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Rapfen",
@@ -3959,7 +4520,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -3972,27 +4533,20 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
           "waterScope": "all",
-          "minimumSizeCm": 70,
+          "minimumSizeCm": null,
           "maximumSizeCm": null,
-          "rawMinimumSize": "70 cm",
-          "closedSeasons": [
-            {
-              "startDay": 1,
-              "startMonth": 5,
-              "endDay": 30,
-              "endMonth": 6
-            }
-          ],
-          "rawClosedSeason": "01.05.–30.06.",
+          "rawMinimumSize": null,
+          "closedSeasons": [],
+          "rawClosedSeason": "–",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -4002,17 +4556,17 @@
           "rawMinimumSize": "45 cm",
           "closedSeasons": [
             {
-              "startDay": 1,
-              "startMonth": 4,
-              "endDay": 31,
+              "startDay": 15,
+              "startMonth": 3,
+              "endDay": 15,
               "endMonth": 5
             }
           ],
-          "rawClosedSeason": "01.04.–31.05.",
+          "rawClosedSeason": "15.03.–15.05.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
-          "note": "Binnen; Küste 15.02.–15.05. in Elbe und Nebengewässern",
-          "verified": false
+          "note": null,
+          "verified": true
         }
       ],
       "notes": []
@@ -4024,22 +4578,46 @@
         {
           "species": "Aal",
           "waterScope": "all",
-          "minimumSizeCm": 45,
+          "minimumSizeCm": 50,
           "maximumSizeCm": null,
-          "rawMinimumSize": "45 cm",
-          "closedSeasons": [],
-          "rawClosedSeason": "–",
+          "rawMinimumSize": "50 cm",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 11,
+              "endDay": 28,
+              "endMonth": 2
+            }
+          ],
+          "rawClosedSeason": "01.11.–28.02.",
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Aland",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Äsche",
           "waterScope": "all",
-          "minimumSizeCm": 30,
+          "minimumSizeCm": 35,
           "maximumSizeCm": null,
-          "rawMinimumSize": "30 cm",
+          "rawMinimumSize": "35 cm",
           "closedSeasons": [
             {
               "startDay": 1,
@@ -4052,14 +4630,14 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Bachforelle",
           "waterScope": "all",
-          "minimumSizeCm": 25,
+          "minimumSizeCm": 30,
           "maximumSizeCm": null,
-          "rawMinimumSize": "25 cm",
+          "rawMinimumSize": "30 cm",
           "closedSeasons": [
             {
               "startDay": 1,
@@ -4072,7 +4650,27 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Barbe",
+          "waterScope": "all",
+          "minimumSizeCm": 40,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "40 cm",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 4,
+              "endDay": 31,
+              "endMonth": 8
+            }
+          ],
+          "rawClosedSeason": "01.04.–31.08.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Döbel",
@@ -4085,7 +4683,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hasel",
@@ -4105,14 +4703,14 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Hecht",
           "waterScope": "all",
-          "minimumSizeCm": 45,
+          "minimumSizeCm": 50,
           "maximumSizeCm": null,
-          "rawMinimumSize": "45 cm",
+          "rawMinimumSize": "50 cm",
           "closedSeasons": [
             {
               "startDay": 15,
@@ -4125,7 +4723,27 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Karausche",
+          "waterScope": "all",
+          "minimumSizeCm": 15,
+          "maximumSizeCm": null,
+          "rawMinimumSize": "15 cm",
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 4,
+              "endDay": 31,
+              "endMonth": 5
+            }
+          ],
+          "rawClosedSeason": "01.04.–31.05.",
+          "isFullyProtected": false,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Karpfen",
@@ -4138,7 +4756,58 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
+        },
+        {
+          "species": "Nase",
+          "waterScope": "all",
+          "minimumSizeCm": null,
+          "maximumSizeCm": null,
+          "rawMinimumSize": null,
+          "closedSeasons": [
+            {
+              "type": "yearRound"
+            }
+          ],
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
+          "bagLimitPerDay": null,
+          "note": null,
+          "verified": true
         },
         {
           "species": "Quappe",
@@ -4158,27 +4827,24 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
-          "species": "Regenbogenforelle",
+          "species": "Rapfen",
           "waterScope": "all",
-          "minimumSizeCm": 25,
+          "minimumSizeCm": null,
           "maximumSizeCm": null,
-          "rawMinimumSize": "25 cm",
+          "rawMinimumSize": null,
           "closedSeasons": [
             {
-              "startDay": 1,
-              "startMonth": 2,
-              "endDay": 31,
-              "endMonth": 3
+              "type": "yearRound"
             }
           ],
-          "rawClosedSeason": "01.02.–31.03.",
-          "isFullyProtected": false,
+          "rawClosedSeason": "ganzjährig",
+          "isFullyProtected": true,
           "bagLimitPerDay": null,
-          "note": "Bei gemeinsamem Vorkommen mit Bachforellen gilt Bachforellenschonzeit",
-          "verified": false
+          "note": null,
+          "verified": true
         },
         {
           "species": "Rotfeder",
@@ -4191,7 +4857,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Schleie",
@@ -4204,7 +4870,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Wels",
@@ -4217,7 +4883,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         },
         {
           "species": "Zander",
@@ -4237,7 +4903,7 @@
           "isFullyProtected": false,
           "bagLimitPerDay": null,
           "note": null,
-          "verified": false
+          "verified": true
         }
       ],
       "notes": []
