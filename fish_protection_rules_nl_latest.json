@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "country": "NL",
   "title": "Anglio gesloten tijden en maten Nederland",
-  "dataVersion": "2026.11-nl-vispas-2026",
+  "dataVersion": "2026.11-nl-law-vispas-split",
   "lastUpdated": "2026-11-08",
   "fileRole": "latest-public-ruleset",
   "recommendedFilename": "fish_protection_rules_nl_latest.json",
@@ -40,6 +40,7 @@
           "waterScope": "countrywide_freshwater",
           "minimumSizeCm": 45,
           "maximumSizeCm": 80,
+          "maximumSizeBasis": "vispas",
           "closedSeasons": [
             {
               "startDay": 1,
@@ -49,6 +50,7 @@
           ],
           "rawClosedSeason": "01.03. tot de laatste zaterdag van mei",
           "bagLimitPerDay": 1,
+          "bagLimitBasis": "vispas",
           "note": "VISpas 2026-2028: maximaal één snoek van 45 tot en met 80 cm. Lokale voorwaarden kunnen het meenemen van snoek volledig verbieden.",
           "verified": true
         },
@@ -58,6 +60,7 @@
           "waterScope": "countrywide_freshwater",
           "minimumSizeCm": 42,
           "maximumSizeCm": 70,
+          "maximumSizeBasis": "vispas",
           "closedSeasons": [
             {
               "startDay": 1,
@@ -67,6 +70,7 @@
           ],
           "rawClosedSeason": "01.04. tot de laatste zaterdag van mei",
           "bagLimitPerDay": 2,
+          "bagLimitBasis": "vispas",
           "note": "VISpas 2026-2028: maximaal twee snoekbaarzen van 42 tot en met 70 cm. Gericht vissen op snoekbaars is tijdens de gesloten aasperiode niet toegestaan.",
           "verified": true
         },
@@ -75,7 +79,9 @@
           "aliases": ["Flussbarsch", "Baars", "European perch", "Perca fluviatilis"],
           "waterScope": "countrywide_freshwater",
           "minimumSizeCm": 22,
+          "minimumSizeBasis": "vispas",
           "maximumSizeCm": 45,
+          "maximumSizeBasis": "vispas",
           "closedSeasons": [
             {
               "startDay": 1,
@@ -85,6 +91,7 @@
           ],
           "rawClosedSeason": "01.04. tot de laatste zaterdag van mei",
           "bagLimitPerDay": 3,
+          "bagLimitBasis": "vispas",
           "note": "VISpas 2026-2028: maximaal drie baarzen van 22 tot en met 45 cm. Lokale voorwaarden blijven van toepassing.",
           "verified": true
         },
@@ -250,6 +257,7 @@
           "waterScope": "countrywide_freshwater",
           "closedSeasons": [],
           "releaseRequired": true,
+          "releaseBasis": "vispas",
           "note": "VISpas 2026-2028: paling (aal) moet direct onbeschadigd in hetzelfde water worden teruggezet.",
           "verified": true
         },
@@ -259,6 +267,7 @@
           "waterScope": "countrywide_freshwater",
           "closedSeasons": [],
           "releaseRequired": true,
+          "releaseBasis": "vispas",
           "note": "VISpas 2026-2028: karper moet direct onbeschadigd in hetzelfde water worden teruggezet.",
           "verified": true
         },
@@ -268,6 +277,7 @@
           "waterScope": "countrywide_freshwater",
           "closedSeasons": [],
           "releaseRequired": true,
+          "releaseBasis": "vispas",
           "note": "VISpas 2026-2028: graskarper moet direct onbeschadigd in hetzelfde water worden teruggezet.",
           "verified": true
         },
