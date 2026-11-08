@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 2,
+  "country": "NL",
+  "title": "Anglio gesloten tijden en maten Nederland",
+  "dataVersion": "2026.11-nl-vispas-2026",
+  "lastUpdated": "2026-11-08",
+  "fileRole": "latest-public-ruleset",
+  "recommendedFilename": "fish_protection_rules_nl_latest.json",
+  "dataStatus": "Landelijke binnenwaterregels en VISpas-voorwaarden 2026-2028",
+  "coverage": "Landelijk geldende basisregels voor de Nederlandse binnenwateren en de algemene voorwaarden van de VISpas 2026-2028. Lokale voorschriften in de VISplanner of schriftelijke toestemming kunnen strenger zijn.",
+  "legalDisclaimer": "Geen juridisch advies. Controleer voor het vissen en meenemen altijd de actuele VISplanner, de geldige schriftelijke toestemming, lokale voorwaarden en wettelijke regels.",
+  "sources": [
+    {
+      "name": "Reglement minimummaten en gesloten tijden 1985 / Uitvoeringsregeling visserij",
+      "url": "https://zoek.officielebekendmakingen.nl/stcrt-2012-20987.html",
+      "accessed": "2026-11-08",
+      "sourceType": "official"
+    },
+    {
+      "name": "Sportvisunie: Nieuwe voorwaarden VISpas 2026-2027-2028",
+      "url": "https://www.sportvisserijnederland.nl/files/2025-08-12-nieuwe-voorwaarden-2026-2027-2028-met-toelichting-pdf_18156.pdf",
+      "accessed": "2026-11-08",
+      "sourceType": "permit-conditions"
+    },
+    {
+      "name": "Sportvisunie: Gesloten tijden en aangepaste regels 2026",
+      "url": "https://hetvisblad.sportvisserijnederland.nl/visblad-mei-2026/visnieuws",
+      "accessed": "2026-11-08",
+      "sourceType": "permit-guidance"
+    }
+  ],
+  "states": [
+    {
+      "id": "NL",
+      "name": "Nederland",
+      "rules": [
+        {
+          "species": "Hecht",
+          "aliases": ["Snoek", "Pike", "Esox lucius"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 45,
+          "maximumSizeCm": 80,
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 3,
+              "endRule": "lastSaturdayOfMay"
+            }
+          ],
+          "rawClosedSeason": "01.03. tot de laatste zaterdag van mei",
+          "bagLimitPerDay": 1,
+          "note": "VISpas 2026-2028: maximaal één snoek van 45 tot en met 80 cm. Lokale voorwaarden kunnen het meenemen van snoek volledig verbieden.",
+          "verified": true
+        },
+        {
+          "species": "Zander",
+          "aliases": ["Snoekbaars", "Pike-perch", "Sander lucioperca"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 42,
+          "maximumSizeCm": 70,
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 4,
+              "endRule": "lastSaturdayOfMay"
+            }
+          ],
+          "rawClosedSeason": "01.04. tot de laatste zaterdag van mei",
+          "bagLimitPerDay": 2,
+          "note": "VISpas 2026-2028: maximaal twee snoekbaarzen van 42 tot en met 70 cm. Gericht vissen op snoekbaars is tijdens de gesloten aasperiode niet toegestaan.",
+          "verified": true
+        },
+        {
+          "species": "Barsch",
+          "aliases": ["Flussbarsch", "Baars", "European perch", "Perca fluviatilis"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 22,
+          "maximumSizeCm": 45,
+          "closedSeasons": [
+            {
+              "startDay": 1,
+              "startMonth": 4,
+              "endRule": "lastSaturdayOfMay"
+            }
+          ],
+          "rawClosedSeason": "01.04. tot de laatste zaterdag van mei",
+          "bagLimitPerDay": 3,
+          "note": "VISpas 2026-2028: maximaal drie baarzen van 22 tot en met 45 cm. Lokale voorwaarden blijven van toepassing.",
+          "verified": true
+        },
+        {
+          "species": "Barbe",
+          "aliases": ["Barbeel", "Barbel", "Barbus barbus"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 30,
+          "closedSeasons": [
+            { "startDay": 1, "startMonth": 4, "endDay": 31, "endMonth": 5 }
+          ],
+          "rawClosedSeason": "01.04.-31.05.",
+          "verified": true
+        },
+        {
+          "species": "Döbel",
+          "aliases": ["Doebel", "Kopvoorn", "Chub", "Squalius cephalus"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 30,
+          "closedSeasons": [
+            { "startDay": 1, "startMonth": 4, "endDay": 31, "endMonth": 5 }
+          ],
+          "rawClosedSeason": "01.04.-31.05.",
+          "verified": true
+        },
+        {
+          "species": "Aland",
+          "aliases": ["Winde", "Ide", "Leuciscus idus"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": null,
+          "closedSeasons": [
+            { "startDay": 1, "startMonth": 4, "endDay": 31, "endMonth": 5 }
+          ],
+          "rawClosedSeason": "01.04.-31.05.",
+          "verified": true
+        },
+        {
+          "species": "Flussneunauge",
+          "aliases": ["Rivierprik", "River lamprey", "Lampetra fluviatilis"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 20,
+          "closedSeasons": [
+            { "startDay": 1, "startMonth": 11, "endDay": 31, "endMonth": 1 },
+            { "startDay": 1, "startMonth": 3, "endDay": 30, "endMonth": 4 }
+          ],
+          "rawClosedSeason": "01.11.-31.01. en 01.03.-30.04.",
+          "verified": true
+        },
+        {
+          "species": "Bachforelle",
+          "aliases": ["Beekforel", "Brown trout", "Salmo trutta fario"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 25,
+          "closedSeasons": [
+            { "startDay": 1, "startMonth": 10, "endDay": 31, "endMonth": 3 }
+          ],
+          "rawClosedSeason": "01.10.-31.03.",
+          "verified": true
+        },
+        {
+          "species": "Meerforelle",
+          "aliases": ["Zeeforel", "Sea trout", "Salmo trutta trutta"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Lachs",
+          "aliases": ["Zalm", "Atlantic salmon", "Salmo salar"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Maifisch",
+          "aliases": ["Elft", "Allis shad", "Alosa alosa"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Finte",
+          "aliases": ["Fint", "Twaite shad", "Alosa fallax"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Quappe",
+          "aliases": ["Kwabaal", "Aalrutte", "Burbot", "Lota lota"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Hasel",
+          "aliases": ["Serpeling", "Common dace", "Leuciscus leuciscus"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Nase",
+          "aliases": ["Sneep", "Common nase", "Chondrostoma nasus"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Äsche",
+          "aliases": ["Aesche", "Vlagzalm", "Grayling", "Thymallus thymallus"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Meerneunauge",
+          "aliases": ["Zeeprik", "Sea lamprey", "Petromyzon marinus"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Wels",
+          "aliases": ["Waller", "Meerval", "Wels catfish", "Silurus glanis"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [{ "type": "yearRound" }],
+          "rawClosedSeason": "het gehele jaar",
+          "isFullyProtected": true,
+          "releaseRequired": true,
+          "verified": true
+        },
+        {
+          "species": "Aal",
+          "aliases": ["Paling", "European eel", "Anguilla anguilla"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [],
+          "releaseRequired": true,
+          "note": "VISpas 2026-2028: paling (aal) moet direct onbeschadigd in hetzelfde water worden teruggezet.",
+          "verified": true
+        },
+        {
+          "species": "Karpfen",
+          "aliases": ["Karper", "Common carp", "Cyprinus carpio"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [],
+          "releaseRequired": true,
+          "note": "VISpas 2026-2028: karper moet direct onbeschadigd in hetzelfde water worden teruggezet.",
+          "verified": true
+        },
+        {
+          "species": "Graskarpfen",
+          "aliases": ["Graskarper", "Grass carp", "Ctenopharyngodon idella"],
+          "waterScope": "countrywide_freshwater",
+          "closedSeasons": [],
+          "releaseRequired": true,
+          "note": "VISpas 2026-2028: graskarper moet direct onbeschadigd in hetzelfde water worden teruggezet.",
+          "verified": true
+        },
+        {
+          "species": "Schleie",
+          "aliases": ["Zeelt", "Tench", "Tinca tinca"],
+          "waterScope": "countrywide_freshwater",
+          "minimumSizeCm": 25,
+          "closedSeasons": [],
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
